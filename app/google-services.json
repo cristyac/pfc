@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "134414391487",
+    "firebase_url": "https://pfcandroidstudio.firebaseio.com",
+    "project_id": "pfcandroidstudio",
+    "storage_bucket": "pfcandroidstudio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134414391487:android:a0ed12900bd95b2f",
+        "android_client_info": {
+          "package_name": "com.controlador.pfc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134414391487-vbbf9i1isi13ik969u7a2lsq04lq248a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.controlador.pfc",
+            "certificate_hash": "65218601be81cb80163c3c072180957318d5e4ce"
+          }
+        },
+        {
+          "client_id": "134414391487-jvbv0poab2pks183fu19bd5lt5l82j3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz17wlJQ7QljFGLfv3aw_gm0lwV5nG-d8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134414391487-jvbv0poab2pks183fu19bd5lt5l82j3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

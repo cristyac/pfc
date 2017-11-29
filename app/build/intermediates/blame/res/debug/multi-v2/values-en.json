@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\FranciscoJavier2\\AndroidStudioProjects\\pfcandroidstudio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\FranciscoJavier2\\AndroidStudioProjects\\pfcandroidstudio\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "4,12,10,21,3,13,14,11,15,9,18,8,17,20,5,6,7,19,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,542,411,1023,59,588,640,475,695,368,843,321,782,961,159,213,267,884,740",
+                        "endColumns": "52,44,62,57,44,50,53,65,43,41,39,45,59,60,52,52,52,75,40",
+                        "endOffsets": "153,582,469,1076,99,634,689,536,734,405,878,362,837,1017,207,261,315,955,776"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,153,216,274,319,370,424,490,534,576,616,662,722,783,836,889,942,1018",
+                        "endColumns": "52,44,62,57,44,50,53,65,43,41,39,45,59,60,52,52,52,75,40",
+                        "endOffsets": "103,148,211,269,314,365,419,485,529,571,611,657,717,778,831,884,937,1013,1054"
+                    }
+                }
+            ]
+        }
+    ]
+}

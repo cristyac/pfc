@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">134414391487-jvbv0poab2pks183fu19bd5lt5l82j3l.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://pfcandroidstudio.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">134414391487</string>
+    <string name="google_api_key" translatable="false">AIzaSyBz17wlJQ7QljFGLfv3aw_gm0lwV5nG-d8</string>
+    <string name="google_app_id" translatable="false">1:134414391487:android:a0ed12900bd95b2f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBz17wlJQ7QljFGLfv3aw_gm0lwV5nG-d8</string>
+    <string name="google_storage_bucket" translatable="false">pfcandroidstudio.appspot.com</string>
+    <string name="project_id" translatable="false">pfcandroidstudio</string>
+</resources>

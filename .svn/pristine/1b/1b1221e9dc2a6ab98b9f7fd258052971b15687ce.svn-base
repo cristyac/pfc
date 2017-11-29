@@ -1,0 +1,448 @@
+[
+    {
+        "outputFile": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 52,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 52,
+                        "endOffset": 149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 222,
+                    "endColumn": 43,
+                    "endOffset": 261
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 524,
+                        "endColumn": 40,
+                        "endOffset": 563
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 266,
+                    "endColumn": 68,
+                    "endOffset": 330
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 1,
+                        "startOffset": 392,
+                        "endColumn": 65,
+                        "endOffset": 456
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 335,
+                    "endColumn": 69,
+                    "endOffset": 400
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 1,
+                        "startOffset": 986,
+                        "endColumn": 66,
+                        "endOffset": 1051
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 405,
+                    "endColumn": 44,
+                    "endOffset": 445
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 44,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 450,
+                    "endColumn": 50,
+                    "endOffset": 496
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 565,
+                        "endColumn": 47,
+                        "endOffset": 611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 501,
+                    "endColumn": 53,
+                    "endOffset": 550
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 1,
+                        "startOffset": 613,
+                        "endColumn": 50,
+                        "endOffset": 662
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 555,
+                    "endColumn": 68,
+                    "endOffset": 619
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 458,
+                        "endColumn": 65,
+                        "endOffset": 522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 624,
+                    "endColumn": 45,
+                    "endOffset": 665
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 1,
+                        "startOffset": 664,
+                        "endColumn": 42,
+                        "endOffset": 705
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 670,
+                    "endColumn": 41,
+                    "endOffset": 707
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 1,
+                        "startOffset": 353,
+                        "endColumn": 38,
+                        "endOffset": 390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 712,
+                    "endColumn": 39,
+                    "endOffset": 747
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 1,
+                        "startOffset": 806,
+                        "endColumn": 36,
+                        "endOffset": 841
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 752,
+                    "endColumn": 45,
+                    "endOffset": 793
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 1,
+                        "startOffset": 310,
+                        "endColumn": 42,
+                        "endOffset": 351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 798,
+                    "endColumn": 60,
+                    "endOffset": 854
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 1,
+                        "startOffset": 748,
+                        "endColumn": 57,
+                        "endOffset": 804
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 859,
+                    "endColumn": 64,
+                    "endOffset": 919
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 1,
+                        "startOffset": 924,
+                        "endColumn": 61,
+                        "endOffset": 984
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 924,
+                    "endColumn": 52,
+                    "endOffset": 972
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 154,
+                        "endColumn": 52,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 977,
+                    "endColumn": 52,
+                    "endOffset": 1025
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endColumn": 52,
+                        "endOffset": 255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1030,
+                    "endColumn": 52,
+                    "endOffset": 1078
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endColumn": 52,
+                        "endOffset": 308
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1083,
+                    "endColumn": 83,
+                    "endOffset": 1162
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 1,
+                        "startOffset": 843,
+                        "endColumn": 80,
+                        "endOffset": 922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1167,
+                    "endColumn": 43,
+                    "endOffset": 1206
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 1,
+                        "startOffset": 707,
+                        "endColumn": 40,
+                        "endOffset": 746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1211,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1497
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1502,
+                    "endLine": 32,
+                    "endColumn": 12,
+                    "endOffset": 1657
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    }
+]

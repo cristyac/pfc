@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/agregar_persona_dependiente"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/anadirpersona"
+        android:showAsAction="ifRoom"
+    />
+
+    <item android:id="@+id/borrar_persona_dependiente"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/borrarpersona"
+        android:showAsAction="ifRoom"
+    />
+
+    <item android:id="@+id/diario_persona_dependiente"
+        android:icon="@drawable/ic_action_diario"
+        android:title="@string/diario"
+        android:showAsAction="always"
+    />
+    <item android:id="@+id/mensajes"
+        android:icon="@drawable/ic_action_mensaje"
+        android:title="@string/mensajes"
+        android:showAsAction="always"
+    />
+    <item android:id="@+id/alertas"
+        android:icon="@drawable/ic_action_alerta"
+        android:title="@string/alertas"
+        android:showAsAction="always"
+    />
+
+
+</menu>

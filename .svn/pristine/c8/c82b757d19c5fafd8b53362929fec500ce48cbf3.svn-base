@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_principal_familiar.xml",
+        "source": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\menu\\menu_principal_familiar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_principal_cuidador.xml",
+        "source": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\menu\\menu_principal_cuidador.xml"
+    }
+]

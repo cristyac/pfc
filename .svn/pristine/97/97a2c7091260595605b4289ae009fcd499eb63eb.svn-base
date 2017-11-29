@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sisinfa</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="mensajes">Mensajes</string>
+    <string name="diario">Diario</string>
+    <string name="anadirpersona">Añadir persona dependiente</string>
+    <string name="borrarpersona">Borrar persona dependiente</string>
+    <string name="alertas">Alertas</string>
+    <string name="appkey">dt9filvwtwbd67t</string>
+    <string name="appsecret">hf5dn5bnw2rm8cm</string>
+    <string name="contra">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="registrarcentro">Registrar centro</string>
+    <string name="login">Login</string>
+    <string name="usu_contra_incorrect">Usuario y/o contraseña incorrectos</string>
+    <string name="registrarpersonal">Registrar personal</string>
+    <string name="anadirpersonal">Añadir personal del centro</string>
+
+</resources>

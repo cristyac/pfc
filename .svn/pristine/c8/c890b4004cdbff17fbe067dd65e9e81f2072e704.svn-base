@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\build\\intermediates\\res\\merged\\debug\\layout\\valertas_cuidadores.xml",
+        "source": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\layout\\valertas_cuidadores.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vprincipal_cuidador.xml",
+        "source": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\layout\\vprincipal_cuidador.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vregistrarcentro.xml",
+        "source": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\layout\\vregistrarcentro.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vprincipal_administrador.xml",
+        "source": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\layout\\vprincipal_administrador.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main_dummy.xml",
+        "source": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\layout\\fragment_main_dummy.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vprincipal_familiar.xml",
+        "source": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\layout\\vprincipal_familiar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vregistrar_per_depend.xml",
+        "source": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\layout\\vregistrar_per_depend.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vlogin.xml",
+        "source": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\layout\\vlogin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vborrar_per_depend.xml",
+        "source": "C:\\Users\\Cristina\\Desktop\\pfc\\app\\src\\main\\res\\layout\\vborrar_per_depend.xml"
+    }
+]

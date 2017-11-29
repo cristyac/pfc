@@ -1,0 +1,62 @@
+package com.controlador.pfc.familiares;
+
+import com.controlador.pfc.R;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class vprincipal_familiar extends Activity{
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		//mostramos la vista
+		setContentView(R.layout.vprincipal_familiar);
+	}
+	
+	//MENU
+	 @Override
+	public boolean onCreateOptionsMenu(Menu menu){
+		getMenuInflater().inflate(R.menu.menu_principal_familiar, menu);
+		return true;
+	}
+	 
+	 @Override
+	public boolean onOptionsItemSelected(MenuItem item){
+		switch (item.getItemId()) {
+		case R.id.diario_persona_dependiente:
+			lanzar_diario_persona_dependiente();
+//			lugar.setNombre(nombre.getText().toString());
+//			lugar.setTipo(TipoLugar.values()[tipo.getSelectedItemPosition()]);
+//			lugar.setDireccion(direccion.getText().toString());
+//			lugar.setTelefono(Integer.parseInt(telefono.getText().toString()));
+//			lugar.setUrl(url.getText().toString());
+//			lugar.setComentario(comentario.getText().toString());
+//			finish();
+			return true;
+		case R.id.mensajes:
+			lanzar_mensajes();
+			return true;
+		case R.id.alertas:
+			lanzar_alertas();
+			return true;
+		default:
+			return super.onOptionsItemSelected(item);
+		}
+	}
+	 
+	//lanzadores de actividades
+	 public void lanzar_diario_persona_dependiente(/*View view*/){
+		// Intent i= new Intent(this, vdiario.class);
+		 //startActivity(i);
+	 }
+	 public void lanzar_mensajes(/*View view*/){
+			// Intent i= new Intent(this, Acercade.class);
+			 //startActivity(i);
+	 }
+	 public void lanzar_alertas(/*View view*/){
+			// Intent i= new Intent(this, Acercade.class);
+			 //startActivity(i);
+	 }
+
+}
