@@ -77,11 +77,8 @@ public class vMensajes extends Activity {
             nombrepDependiente = arrayList.get(posicionArrayList);
             SharedPreferences datos= PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
             SharedPreferences.Editor myeditor=datos.edit();
-            myeditor.putString("PERSONADEPENDIENTE",nombrepDependiente);
-            myeditor.apply();
             Intent i = new Intent(this, vChat.class);
-            /*i.putExtra("FAMILIAR", nombrepDependiente);
-            i.putExtra("USERNAME", usuario);*/
+            i.putExtra("nombrePDependiente",nombrepDependiente);
             startActivity(i);
         } else {
             Toast.makeText(getApplicationContext(), "No se ha seleccionado ningún elemento", Toast.LENGTH_LONG).show();

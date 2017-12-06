@@ -22,16 +22,6 @@ public class User  {
         this.tipousuario=tipousuario;
     }
 
-    /*
-    public String getUsername() {
-        return username;}
-
-    public String getContrasena() {
-        return contrasena;}
-
-    public String getTipousuario() {return tipousuario;}
-
-    */
 
 
 }

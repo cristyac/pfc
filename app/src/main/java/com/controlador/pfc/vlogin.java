@@ -20,6 +20,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.text.format.Time;
 
 
 public class vlogin extends Activity   {
@@ -29,6 +30,8 @@ public class vlogin extends Activity   {
 	String usuario;
 	User miuser;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -36,6 +39,11 @@ public class vlogin extends Activity   {
 		myeditor=datos.edit();
 		String usuariopreferencias=datos.getString("USERNAME","");
 		String tipo=datos.getString("tipoUsuario","");
+		System.out.println("-----------NOMBREUSER--------"+usuariopreferencias);
+		System.out.println("-----------TIPO--------"+tipo);
+
+
+
 		if(usuariopreferencias.equals("")) {
 			setContentView(R.layout.vlogin);
 		}
@@ -60,6 +68,9 @@ public class vlogin extends Activity   {
 				if(dataSnapshot.getValue()!=null){
 					miuser=dataSnapshot.getValue(User.class);
 					if ((miuser.contrasena).equals(password)){
+						myeditor.putString("USERNAME",usuario);
+						myeditor.putString("tipoUsuario",miuser.tipousuario);
+						myeditor.apply();
 						empiezaActividadSegunUsuario(miuser.tipousuario);
 					}else {
 						Toast.makeText(getApplicationContext(),"Contraseña introducida incorrecta",Toast.LENGTH_LONG).show();
@@ -74,27 +85,21 @@ public class vlogin extends Activity   {
 	}
 
 	public void empiezaActividadSegunUsuario(String tipoUsuario){
-		Intent intent;
+		Intent intent=null;
 		switch (tipoUsuario){
 			case "administrador":
 				intent = new Intent(this, vprincipal_administrador.class);
-				startActivity(intent);
-				finish();
 				break;
 			case "cuidador":
 				intent = new Intent(this, vprincipal_cuidadores.class);
-				startActivity(intent);
-				finish();
 				break;
 			case "familiar":
 				intent = new Intent(this, vprincipal_familiar.class);
-				startActivity(intent);
-				finish();
 				break;
 		}
-		myeditor.putString("USERNAME",usuario);
-		myeditor.putString("tipoUsuario",tipoUsuario);
-		myeditor.apply();
+		startActivity(intent);
+		finish();
+
 	}
 
     public void sePulsaRegistrar(View view){

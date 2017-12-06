@@ -5,21 +5,17 @@ import com.controlador.pfc.modelo.vMensajes;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class vprincipal_cuidadores extends Activity {
-	//public String usuario;
-	@Override
+
+
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.vprincipal_cuidador);
-
-		//SharedPreferences datos= PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-		//usuario=datos.getString("USERNAME",""); //El segundo valor es para ver cuánto tendrá si no encuentra la clave.
-
-		//Bundle mybundle=getIntent().getExtras();
-		//usuario = mybundle.getString("USERNAME");   //Recuperamos el nombre de usuario ya que puede ser útil
 	}
 	
 	 @Override

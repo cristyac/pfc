@@ -1,5 +1,14 @@
 package com.modelo.pfc;
 
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * Created by FranciscoJavier2 on 15/11/2017.
  */
@@ -19,6 +28,11 @@ public class Mensaje {
         this.Hora = Hora;
         this.Mensaje=Mensaje;
         this.Receptor=Receptor;
+    }
+
+    public void AgregarMensaje (){
+        final DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference("Mensajes").child(Receptor);
+        mDatabase.child(this.Hora).setValue(this);
     }
 
 }

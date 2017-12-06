@@ -10,6 +10,8 @@
         android:id="@+id/ListViewPDependientes"
         android:layout_width="0dp"
         android:layout_height="400dp"
+        android:layout_marginBottom="31dp"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonSeleccionar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></ListView>

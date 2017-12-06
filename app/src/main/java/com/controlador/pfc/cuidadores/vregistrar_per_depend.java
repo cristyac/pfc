@@ -45,14 +45,6 @@ public class vregistrar_per_depend extends Activity {
 
 		AgregarPersonaDependiente(usuarioFamiliar,grupoPerDepend,nombrePerDependiente,passwordFamiliar);
 
-
-		//mostramos una alerta indicando que se ha dado de alta persona dependiente
-		/*AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("A�adido correctamente");
-        builder.setMessage("Persona depenñ");
-        builder.setPositiveButton("OK",null);
-        builder.create();
-        builder.show();*/
 	}
 
 
