@@ -70,7 +70,7 @@
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="Alertas" />
         <activity android:name="com.controlador.pfc.cuidadores.vMensajes" />
-        <activity android:name="com.controlador.pfc.cuidadores.vChat" />
+        <activity android:name="com.controlador.pfc.vChat" />
         <activity
             android:name="com.controlador.pfc.administrador.vborrar_cuidador"
             android:configChanges="keyboardHidden|orientation|screenSize"

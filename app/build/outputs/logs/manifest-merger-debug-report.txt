@@ -258,10 +258,10 @@ activity#com.controlador.pfc.cuidadores.vMensajes
 ADDED from C:\Users\Cristina\Desktop\proyecto\pfc\app\src\main\AndroidManifest.xml:60:9-57
 	android:name
 		ADDED from C:\Users\Cristina\Desktop\proyecto\pfc\app\src\main\AndroidManifest.xml:60:19-55
-activity#com.controlador.pfc.cuidadores.vChat
-ADDED from C:\Users\Cristina\Desktop\proyecto\pfc\app\src\main\AndroidManifest.xml:61:9-53
+activity#com.controlador.pfc.vChat
+ADDED from C:\Users\Cristina\Desktop\proyecto\pfc\app\src\main\AndroidManifest.xml:61:9-42
 	android:name
-		ADDED from C:\Users\Cristina\Desktop\proyecto\pfc\app\src\main\AndroidManifest.xml:61:19-51
+		ADDED from C:\Users\Cristina\Desktop\proyecto\pfc\app\src\main\AndroidManifest.xml:61:19-40
 activity#com.controlador.pfc.administrador.vborrar_cuidador
 ADDED from C:\Users\Cristina\Desktop\proyecto\pfc\app\src\main\AndroidManifest.xml:62:9-65:49
 	android:label

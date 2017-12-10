@@ -5,40 +5,34 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="FIELD_REMOVED"
+    ir-eligibility="METHOD_DELETED"
     plugin-version="3.0.0"
-    timestamp="1512907479180"
+    timestamp="1512924384794"
     token="-293951130621030847"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="668" />
+        duration="280" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="103" />
+        duration="36" />
     <task
         name="verifier"
-        duration="78" />
+        duration="24" />
 
-    <artifact
-        location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
     <artifact
         location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\outputs\apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -87,20 +81,35 @@
         timestamp="1512907479180"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1512922292826"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="METHOD_DELETED"
+        timestamp="1512924384794"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Cristina\Desktop\proyecto\pfc\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

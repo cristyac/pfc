@@ -30,8 +30,8 @@ public class Mensaje {
         this.Receptor=Receptor;
     }
 
-    public void AgregarMensaje (){
-        final DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference("Mensajes").child(Receptor);
+    public void AgregarMensaje (String pDependiente){
+        final DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference("Mensajes").child(pDependiente);
         mDatabase.child(this.Hora).setValue(this);
     }
 

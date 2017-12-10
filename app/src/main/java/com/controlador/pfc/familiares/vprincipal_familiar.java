@@ -1,6 +1,7 @@
 package com.controlador.pfc.familiares;
 
 import com.controlador.pfc.R;
+import com.controlador.pfc.vChat;
 import com.controlador.pfc.vlogin;
 
 import android.app.Activity;
@@ -49,9 +50,12 @@ public class vprincipal_familiar extends Activity{
 		 Intent i= new Intent(this, vDiario_familiar.class);
 		 startActivity(i);
 	 }
-	 public void lanzar_mensajes(/*View view*/){
-			// Intent i= new Intent(this, Acercade.class);
-			 //startActivity(i);
+	 public void lanzar_mensajes(){
+			Intent i= new Intent(this, vChat.class);
+		 	SharedPreferences datos = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+			String nombrePDependiente = datos.getString("pDependiente", "");
+		 	i.putExtra("nombrePDependiente",nombrePDependiente);
+		 	startActivity(i);
 	 }
 	 public void lanzar_alertas(/*View view*/){
 			// Intent i= new Intent(this, Acercade.class);

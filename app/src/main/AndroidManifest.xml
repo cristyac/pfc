@@ -58,7 +58,7 @@
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="Alertas" />
         <activity android:name=".cuidadores.vMensajes"/>
-        <activity android:name=".cuidadores.vChat"/>
+        <activity android:name=".vChat"/>
         <activity
             android:name=".administrador.vborrar_cuidador"
             android:configChanges="keyboardHidden|orientation|screenSize"

@@ -9,20 +9,24 @@ import com.google.firebase.database.ValueEventListener;
 import com.modelo.pfc.User;
 import com.modelo.pfc.mpDependientes;
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
 public class vregistrar_per_depend extends Activity {
 	private EditText nombrePerDepend, grupo, nombreF, usuFamiliar, passF;
-	private String nombrePerDependiente, grupoPerDepend,nombreFamiliar,usuarioFamiliar,passwordFamiliar;
+	private String nombrePerDependiente, grupoPerDepend,nombreFamiliar,usuarioFamiliar,passwordFamiliar, nombreUser;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		//mostramos la vista
 		setContentView(R.layout.vregistrar_per_depend);
+		SharedPreferences datos = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+		nombreUser = datos.getString("USERNAME", ""); //El segundo valor es para ver cuánto tendrá si no encuentra la clave.
 	}
 
 	public void sepulsaagregar(View view){
@@ -63,7 +67,7 @@ public class vregistrar_per_depend extends Activity {
 							if(dataSnapshot.getValue()!=null){ //se ha encontrado el familiar en la bd
 								Toast.makeText(getApplicationContext(),"Ese familiar ya existe",Toast.LENGTH_LONG).show();
 							}else { //no está el familiar en la bd. Por tanto, añadimos tanto el familiar como a la persona dependiente
-								mpDependientes midependiente= new mpDependientes(familiar,grupo,nombre);
+								mpDependientes midependiente= new mpDependientes(familiar,grupo,nombre,nombreUser);
 								mDatabase.setValue(midependiente);
 								User miuser=new User(familiar, passwordFamiliar,"familiar");
 								mDatabase2.setValue(miuser);
