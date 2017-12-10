@@ -57,10 +57,25 @@
             android:name=".cuidadores.Valertas_cuidadores"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="Alertas" />
-        <activity android:name=".modelo.vMensajes"
-            />
-        <activity android:name=".modelo.vChat"
-            />
+        <activity android:name=".cuidadores.vMensajes"/>
+        <activity android:name=".cuidadores.vChat"/>
+        <activity
+            android:name=".administrador.vborrar_cuidador"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Borrar cuidadores" />
+        <activity
+            android:name=".cuidadores.vlistar_per_depend"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Diarios de..." />
+        <activity
+            android:name=".cuidadores.vDiario"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Diario" />
+        <activity
+            android:name=".familiares.vDiario_familiar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Diario" />
+
     </application>
 
 </manifest>

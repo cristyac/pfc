@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\FranciscoJavier2\\AndroidStudioProjects\\pfcandroidstudio\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-vi\\values-vi.xml",
+            "outputFile": "C:\\Users\\Cristina\\Desktop\\proyecto\\pfc\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-vi\\values-vi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\FranciscoJavier2\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.0.0.aar\\942dfc91aefdfc703194047cabda5576\\res\\values-vi\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "325",
-                        "endColumns": "260",
-                        "endOffsets": "581"
-                    },
-                    "to": {
-                        "startLines": "40",
-                        "startColumns": "4",
-                        "startOffsets": "5201",
-                        "endColumns": "260",
-                        "endOffsets": "5457"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\FranciscoJavier2\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1a881fa029d958cd55c39c313f03c4e4\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\Cristina\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\244a9eb9d05b8f2f2f7f96efc700f99e\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\FranciscoJavier2\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.0.aar\\eb870cfb59a61bea0c61fd2e83661a1d\\res\\values-vi\\values.xml",
+                    "source": "C:\\Users\\Cristina\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.0.aar\\2d0b4954cdbe1326bf2597d0f11d92ba\\res\\values-vi\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "2068,2327,2455,2649,2776,2909,3141,3377,3509,3704,3835,4007,4122,4255,4442,4589,4752,4880,5067,5462,5714,5841,5950,6142,6274,6492,6631,6810,6908,7002",
                         "endColumns": "258,127,193,126,132,231,235,131,194,130,171,114,132,186,146,162,127,186,133,251,126,108,191,131,217,138,178,97,93,109",
                         "endOffsets": "2322,2450,2644,2771,2904,3136,3372,3504,3699,3830,4002,4117,4250,4437,4584,4747,4875,5062,5196,5709,5836,5945,6137,6269,6487,6626,6805,6903,6997,7107"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Cristina\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.0.0.aar\\88972dc2f505feec959681ca6f5555b4\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "325",
+                        "endColumns": "260",
+                        "endOffsets": "581"
+                    },
+                    "to": {
+                        "startLines": "40",
+                        "startColumns": "4",
+                        "startOffsets": "5201",
+                        "endColumns": "260",
+                        "endOffsets": "5457"
                     }
                 }
             ]

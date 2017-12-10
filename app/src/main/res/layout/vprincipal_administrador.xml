@@ -26,9 +26,9 @@
         android:id="@+id/btnRegistrarPerDepend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/passwordPersonal"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="86dp"
+        android:layout_marginTop="86dp"
         android:onClick="sePulsaRegistrar"
         android:text="@string/registrarpersonal" />
 
@@ -60,5 +60,15 @@
         android:layout_marginTop="19dp"
         android:ems="10"
         android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegistrarPerDepend"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Borrar personal"
+        android:onClick="sePulsarEliminar"/>
 
 </RelativeLayout>

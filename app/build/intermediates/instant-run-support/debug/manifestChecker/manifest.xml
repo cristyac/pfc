@@ -69,8 +69,24 @@
             android:name="com.controlador.pfc.cuidadores.Valertas_cuidadores"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="Alertas" />
-        <activity android:name="com.controlador.pfc.modelo.vMensajes" />
-        <activity android:name="com.controlador.pfc.modelo.vChat" />
+        <activity android:name="com.controlador.pfc.cuidadores.vMensajes" />
+        <activity android:name="com.controlador.pfc.cuidadores.vChat" />
+        <activity
+            android:name="com.controlador.pfc.administrador.vborrar_cuidador"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Borrar cuidadores" />
+        <activity
+            android:name="com.controlador.pfc.cuidadores.vlistar_per_depend"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Diarios de..." />
+        <activity
+            android:name="com.controlador.pfc.cuidadores.vDiario"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Diario" />
+        <activity
+            android:name="com.controlador.pfc.familiares.vDiario_familiar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Diario" />
 
         <meta-data
             android:name="android.support.VERSION"

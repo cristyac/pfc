@@ -1,10 +1,16 @@
 package com.controlador.pfc.familiares;
 
 import com.controlador.pfc.R;
+import com.controlador.pfc.vlogin;
+
 import android.app.Activity;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class vprincipal_familiar extends Activity{
 	@Override
@@ -26,13 +32,6 @@ public class vprincipal_familiar extends Activity{
 		switch (item.getItemId()) {
 		case R.id.diario_persona_dependiente:
 			lanzar_diario_persona_dependiente();
-//			lugar.setNombre(nombre.getText().toString());
-//			lugar.setTipo(TipoLugar.values()[tipo.getSelectedItemPosition()]);
-//			lugar.setDireccion(direccion.getText().toString());
-//			lugar.setTelefono(Integer.parseInt(telefono.getText().toString()));
-//			lugar.setUrl(url.getText().toString());
-//			lugar.setComentario(comentario.getText().toString());
-//			finish();
 			return true;
 		case R.id.mensajes:
 			lanzar_mensajes();
@@ -46,9 +45,9 @@ public class vprincipal_familiar extends Activity{
 	}
 	 
 	//lanzadores de actividades
-	 public void lanzar_diario_persona_dependiente(/*View view*/){
-		// Intent i= new Intent(this, vdiario.class);
-		 //startActivity(i);
+	 public void lanzar_diario_persona_dependiente(){
+		 Intent i= new Intent(this, vDiario_familiar.class);
+		 startActivity(i);
 	 }
 	 public void lanzar_mensajes(/*View view*/){
 			// Intent i= new Intent(this, Acercade.class);
@@ -58,5 +57,16 @@ public class vprincipal_familiar extends Activity{
 			// Intent i= new Intent(this, Acercade.class);
 			 //startActivity(i);
 	 }
-
+	public void cerrar_sesion(View view){
+		SharedPreferences datos=null;
+		SharedPreferences.Editor myeditor=null;
+		datos= PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+		myeditor=datos.edit();
+		myeditor.putString("USERNAME","");
+		myeditor.putString("tipoUsuario","");
+		myeditor.apply();
+		Intent intent = new Intent(this, vlogin.class);
+		startActivity(intent);
+		finish();
+	}
 }

@@ -16,7 +16,7 @@
     <string name="contra">Contraseña</string>
     <string name="usuario">Usuario</string>
     <string name="registrarcentro">Registrar centro</string>
-    <string name="login">Login</string>
+    <string name="login">Iniciar Sesión</string>
     <string name="usu_contra_incorrect">Usuario y/o contraseña incorrectos</string>
     <string name="registrarpersonal">Registrar personal</string>
     <string name="anadirpersonal">Añadir personal del centro</string>

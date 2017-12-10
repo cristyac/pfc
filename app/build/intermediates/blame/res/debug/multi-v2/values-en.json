@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\FranciscoJavier2\\AndroidStudioProjects\\pfcandroidstudio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "outputFile": "C:\\Users\\Cristina\\Desktop\\proyecto\\pfc\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\FranciscoJavier2\\AndroidStudioProjects\\pfcandroidstudio\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "source": "C:\\Users\\Cristina\\Desktop\\proyecto\\pfc\\app\\src\\main\\res\\values-en\\strings.xml",
                     "from": {
                         "startLines": "4,12,10,21,3,13,14,11,15,9,18,8,17,20,5,6,7,19,16",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

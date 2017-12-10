@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\FranciscoJavier2\\AndroidStudioProjects\\pfcandroidstudio\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
+            "outputFile": "C:\\Users\\Cristina\\Desktop\\proyecto\\pfc\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\FranciscoJavier2\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.0.0.aar\\942dfc91aefdfc703194047cabda5576\\res\\values-zh-rHK\\values.xml",
+                    "source": "C:\\Users\\Cristina\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.0.0.aar\\88972dc2f505feec959681ca6f5555b4\\res\\values-zh-rHK\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\FranciscoJavier2\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1a881fa029d958cd55c39c313f03c4e4\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "source": "C:\\Users\\Cristina\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\244a9eb9d05b8f2f2f7f96efc700f99e\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\FranciscoJavier2\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.0.aar\\eb870cfb59a61bea0c61fd2e83661a1d\\res\\values-zh-rHK\\values.xml",
+                    "source": "C:\\Users\\Cristina\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.0.aar\\2d0b4954cdbe1326bf2597d0f11d92ba\\res\\values-zh-rHK\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -10,7 +10,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Created by FranciscoJavier2 on 15/11/2017.
+ * Se almacena en este objeto los datos de los mensajes-chat
  */
 
 public class Mensaje {

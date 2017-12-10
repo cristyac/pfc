@@ -1,4 +1,4 @@
-#Wed Nov 15 17:24:02 CET 2017
-base.0=C\:\\Users\\FranciscoJavier2\\AndroidStudioProjects\\pfcandroidstudio\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+#Wed Dec 06 13:21:00 CET 2017
+base.0=C\:\\Users\\Cristina\\Desktop\\proyecto\\pfc\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
 renamed.0=classes.dex
-file.0=C\:\\Users\\FranciscoJavier2\\AndroidStudioProjects\\pfcandroidstudio\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2\\classes.dex
+file.0=C\:\\Users\\Cristina\\Desktop\\proyecto\\pfc\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2\\classes.dex

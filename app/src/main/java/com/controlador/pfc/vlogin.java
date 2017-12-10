@@ -10,6 +10,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.database.ChildEventListener;
 import com.modelo.pfc.User;
 import android.app.Activity;
 import android.content.Intent;
@@ -39,11 +40,8 @@ public class vlogin extends Activity   {
 		myeditor=datos.edit();
 		String usuariopreferencias=datos.getString("USERNAME","");
 		String tipo=datos.getString("tipoUsuario","");
-		System.out.println("-----------NOMBREUSER--------"+usuariopreferencias);
-		System.out.println("-----------TIPO--------"+tipo);
 
-
-
+		//si ya disponemos de los datos en preferencias abrimos vlogin, sino abrimos la ventana según tipo de usuario
 		if(usuariopreferencias.equals("")) {
 			setContentView(R.layout.vlogin);
 		}
@@ -71,6 +69,9 @@ public class vlogin extends Activity   {
 						myeditor.putString("USERNAME",usuario);
 						myeditor.putString("tipoUsuario",miuser.tipousuario);
 						myeditor.apply();
+						if(miuser.tipousuario.equals("familiar")){//sacamos el nombre de la persona dependiente vinculada y guardamos en preferencias
+							consultarPersonaDependiente();
+						}
 						empiezaActividadSegunUsuario(miuser.tipousuario);
 					}else {
 						Toast.makeText(getApplicationContext(),"Contraseña introducida incorrecta",Toast.LENGTH_LONG).show();
@@ -106,5 +107,23 @@ public class vlogin extends Activity   {
     	Intent intent = new Intent(this, vregistrarcentro.class);
     	startActivity(intent);
      }
+
+	public void consultarPersonaDependiente(){ //buscamos la persona dependiente asociada al familiar y la almacenamos en preferencias
+		final DatabaseReference mDatabase2 = (FirebaseDatabase.getInstance()).getReference("pDependientes");
+		mDatabase2.orderByChild("Familiar").equalTo(usuario).addChildEventListener(new ChildEventListener() {
+			@Override
+			public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+				if (dataSnapshot.child("Familiar").getValue().toString().equals(usuario)) {
+					String pDependiente = dataSnapshot.child("Nombre").getValue().toString();
+					myeditor.putString("pDependiente", pDependiente);
+					myeditor.apply();
+				}
+			}
+			@Override public void onChildChanged(DataSnapshot dataSnapshot, String s) {}
+			@Override public void onChildRemoved(DataSnapshot dataSnapshot) {}
+			@Override public void onChildMoved(DataSnapshot dataSnapshot, String s) {}
+			@Override public void onCancelled(DatabaseError databaseError) {}
+		});
+	}
 
 }
